@@ -68,19 +68,19 @@ tarea1/ \
 ├── llm-log.pdf         # Registro de uso de LLMs \
 ├── README.md           # Este archivo \
 └── app/ \
-<pre>├── conexion.php            # Conexión a PostgreSQL \
-<pre>├── index.php               # Página de inicio \
-<pre>├── torneos.php             # Lista de torneos \
-<pre>├── torneo_detalle.php      # Detalle de un torneo \
-<pre>├── stats_torneos.php       # Selección de torneo para stats \
-<pre>├── detalle_stats.php       # Opciones de stats de un torneo \
-<pre>├── ranking_jugadores.php   # Ranking por ratio KOs/restarts \
-<pre>├── seleccionar_equipo.php  # Selección de equipo finalista \
-<pre>├── evolucion_por_fase.php  # Evolución de stats por fase \
-<pre>├── busqueda.php            # Búsqueda de jugadores y equipos \
-<pre>├── sponsors.php            # Sponsors por videojuego \
-<pre>├── inscripcion.php         # Formulario de inscripción \
-<pre>├── buscar_jugadores.php    # Lista filtrable de jugadores \
+<pre>├── conexion.php            # Conexión a PostgreSQL </pre>\
+<pre>├── index.php               # Página de inicio </pre>\
+<pre>├── torneos.php             # Lista de torneos </pre>\
+<pre>├── torneo_detalle.php      # Detalle de un torneo </pre>\
+<pre>├── stats_torneos.php       # Selección de torneo para stats </pre>\
+<pre>├── detalle_stats.php       # Opciones de stats de un torneo </pre>\
+<pre>├── ranking_jugadores.php   # Ranking por ratio KOs/restarts </pre>\
+<pre>├── seleccionar_equipo.php  # Selección de equipo finalista </pre>\
+<pre>├── evolucion_por_fase.php  # Evolución de stats por fase </pre>\
+<pre>├── busqueda.php            # Búsqueda de jugadores y equipos </pre>\
+<pre>├── sponsors.php            # Sponsors por videojuego </pre>\
+<pre>├── inscripcion.php         # Formulario de inscripción </pre>\
+<pre>├── buscar_jugadores.php    # Lista filtrable de jugadores </pre>\
 <pre>└── buscar_equipos.php      # Lista filtrable de equipos 
 
 
