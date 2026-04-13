@@ -5,7 +5,7 @@
 |--------|-----------------| \
 | Andrés Ferrer | \
 | Florencia Orellana | \
-| Vicente Dubo | \
+| Vicente Dubo | 
 
 ---
 
@@ -80,6 +80,9 @@ tarea1/ \
 ├── busqueda.php            # Búsqueda de jugadores y equipos \
 ├── sponsors.php            # Sponsors por videojuego \
 └── inscripcion.php         # Formulario de inscripción \
+└── buscar_jugadores.php    # Lista filtrable de jugadores \
+└── buscar_equipos.php      # Lista filtrable de equipos 
+
 
 ---
 
