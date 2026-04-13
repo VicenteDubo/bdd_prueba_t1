@@ -1,11 +1,11 @@
 # 🎮 eSports Manager — Tarea 1 BDD
 
 ## Integrantes
-| Nombre |
-|--------|-----------------|
-| Andrés Ferrer |
-| Florencia Orellana |
-| Vicente Dubo |
+| Nombre | \
+|--------|-----------------| \
+| Andrés Ferrer | \
+| Florencia Orellana | \
+| Vicente Dubo | \
 
 ---
 
@@ -61,25 +61,25 @@ export DB_PASSWORD=mi_contraseña
 ---
 
 ## Estructura de archivos
-tarea1/
-├── schema.sql          # Creación de tablas
-├── data.sql            # Datos sintéticos
-├── informe.pdf         # Parte A
-├── llm-log.pdf         # Registro de uso de LLMs
-├── README.md           # Este archivo
-└── app/
-├── conexion.php            # Conexión a PostgreSQL
-├── index.php               # Página de inicio
-├── torneos.php             # Lista de torneos
-├── torneo_detalle.php      # Detalle de un torneo
-├── stats_torneos.php       # Selección de torneo para stats
-├── detalle_stats.php       # Opciones de stats de un torneo
-├── ranking_jugadores.php   # Ranking por ratio KOs/restarts
-├── seleccionar_equipo.php  # Selección de equipo finalista
-├── evolucion_por_fase.php  # Evolución de stats por fase
-├── busqueda.php            # Búsqueda de jugadores y equipos
-├── sponsors.php            # Sponsors por videojuego
-└── inscripcion.php         # Formulario de inscripción
+tarea1/ \
+├── schema.sql          # Creación de tablas \
+├── data.sql            # Datos sintéticos \
+├── informe.pdf         # Parte A \
+├── llm-log.pdf         # Registro de uso de LLMs \
+├── README.md           # Este archivo \
+└── app/ \
+├── conexion.php            # Conexión a PostgreSQL \
+├── index.php               # Página de inicio \
+├── torneos.php             # Lista de torneos \
+├── torneo_detalle.php      # Detalle de un torneo \
+├── stats_torneos.php       # Selección de torneo para stats \
+├── detalle_stats.php       # Opciones de stats de un torneo \
+├── ranking_jugadores.php   # Ranking por ratio KOs/restarts \
+├── seleccionar_equipo.php  # Selección de equipo finalista \
+├── evolucion_por_fase.php  # Evolución de stats por fase \
+├── busqueda.php            # Búsqueda de jugadores y equipos \
+├── sponsors.php            # Sponsors por videojuego \
+└── inscripcion.php         # Formulario de inscripción \
 
 ---
 
@@ -125,9 +125,19 @@ tarea1/
 
 ### Buscador
 
+`busqueda.php` - Muestra la opción de buscar jugadores o buscar equipos, se puede clickear alguna de estas dos para ir a otra página.
+
+`buscar_jugadores.php` - Muestra en principio una lista de todos los jugadores y justo arriba dos searchbars que permiten filtrar dicha lista ya sea por gamertag o por país (solo un atributo a la vez)
+
+`buscar_equipos.php` - Mismo concepto que en buscar_jugadores.php, pero la lista es de equipos y hay solo una searchbar que permite filtar por el nombre del equipo.
+
 ---
 
 ### Sponsors
+
+`sponsors.php` — Lista de juegos, acceder a cualquiera de ellos te lleva a:
+
+`sponsors_detalle.php` - Lista de los sponsors que patrocinan a todos los torneos de un determinado juego
 
 
 ---
